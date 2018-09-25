@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Main from '@/components/Main'
-import Weather from '@/components/Weather'
+import Search from '@/components/Search'
 import WeatherDetails from '@/components/WeatherDetails'
 
 Vue.use(Router)
@@ -15,8 +15,8 @@ export default new Router({
     },
     {
       path: '/search/:keyword',
-      name: 'Weather',
-      component: Weather
+      name: 'Search',
+      component: Search
     },
     {
       path: '/weather/:woeid',
