@@ -12,11 +12,11 @@
         </div>
         <div class="card-body">
             <div class="row">
-                <div class="col-md-2">
+                <div class="col-md-4">
                     <img :src="icon_url"
                          class="img-thumbnail float-right"/>
                 </div>
-                <div class="col-md-10">
+                <div class="col-md-8">
                     <div class="float-left">
                         <h1>Temp. {{Number((the_temp).toFixed(1))}} ۟ C</h1>
                         <span>Max temp. <span class="text-danger">{{Number((max_temp).toFixed(1))}}</span></span>
