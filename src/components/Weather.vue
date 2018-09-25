@@ -57,8 +57,7 @@
 import axios from 'axios'
 
 // Put path to weather.php file here
-// let baseUrl = 'http://clweather.test/weather.php?'
-let baseUrl = 'http://localhost/weather.php?'
+let baseUrl = 'http://clweather.test/weather.php?'
 export default {
   name: 'Weather',
   data () {
